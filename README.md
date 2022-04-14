@@ -9,7 +9,7 @@ Pyknow
 
 Idea
 ------------------
-Remove the hazzle of choosing a child gift using the help of an Expert System.
+Remove confusions in selecting a child gift using the help of an Expert System.
 
 Usage
 -----------
