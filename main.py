@@ -135,9 +135,11 @@ class Greetings(KnowledgeEngine):
 if __name__ == "__main__":
     preprocess()
     engine = Greetings()
-    while True:
+
+    choice = True
+    while choice is True:
         engine.reset()  # Prepare the engine for the execution.
         engine.run()  # Run it!
-        print("\nWould you like to get another recommendation? [y: yes | n: no]")
-        if input() in ["n", "no"]:
-            exit()
+        print("\nWould you like to get another recommendation? [Y: yes | N: no]")
+        if input() == "N":
+            choice = False
